@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    /* background-color: rgb(88, 119, 221); */
+    height: 80px;
+     position: sticky ;
+    top: 0% ; 
+}
+nav img {
+    height: 90px;
+    width: 80px;
+    padding-left: 1%;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(15, 14, 14);
+    /* font-family: 'Blaka Hollow', cursive; */
+    
+}
+nav ul li {
+    list-style:none;
+    padding: 18px;
+    
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding-right: 8%;
+    
+}
+
+nav ul li :hover{
+    zoom: 150%;
+    color: rgb(198, 54, 211);
+}
+
+
+header{
+     height: 150px;
+     background-color: rgb(22, 23, 83); 
+}
+
+header h1{
+    padding-left: 18%;
+    color: rgb(236, 233, 233);
+    font-size: 50px;
+}
+
+header h3{
+    
+    padding-left: 18%;
+    color: rgb(241, 234, 234);
+    font-size: 20px;
+}   
+
+main{
+    height: 1900px;
+    background-color: black;
+    
+}
+
+.allinfo{
+    width: 400px;
+    padding-left: 15%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer h3,p{
+    color: white;
+}
+
+footer{
+    
+    padding-top: 2%;
+    text-align: center;
+    height: 130px;
+    background-color: rgb(14, 13, 13);
+}
+
+
